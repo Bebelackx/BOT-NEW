@@ -217,7 +217,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
                 msg: `*Berhasil menghapus @${sender} dari premium!*\n\n`
             }
         }
-        if(premiumTime > 315360000000) return cht.reply("Maksimal waktu adalah 10 tahun!")
+        if(premiumTime > 9915360000000) return cht.reply("Maksimal waktu adalah 10 tahun!")
         user.premium.time = opts[cht.cmd].time
         if(cht.cmd.includes("delprem")) user.premium = { time:0 }
         let formatTimeDur = Exp.func.formatDuration(user.premium.time - Date.now())
