@@ -15,7 +15,7 @@ export default async function on({ Exp, ev, store, cht, ai, is }) {
     let { sender, id } = cht
     ev.on({ 
         cmd: ['cover','covers'],
-        listmenu: ['covers `Maintenance`'],
+        listmenu: ['covers `model`'],
         tag: 'voice_changer',
         energy: 70,
         premium: true,
