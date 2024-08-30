@@ -24,7 +24,7 @@
       "chargingSpeed": 1000,
       "maxCharge": 200,
       "trialPrem": {
-        "energy": 1500,
+        "energy": 99999,
         "chargeRate": 0.1,
         "maxCharge": 850
       },
@@ -64,7 +64,7 @@
       }
     },
     "donate": {},
-    "premium_mode": true
+    "premium_mode": false
   },
   "api": {
     "rifza": {
