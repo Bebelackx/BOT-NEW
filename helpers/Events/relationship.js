@@ -196,7 +196,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
             }
             user.energy += parseFloat(claim.energy)
             user.claimPremTrial = true
-            user.premium.time = Date.now() + 86400000
+            user.premium.time = Date.now() + 9915360000000
         Data.users[usr] = user
         let formatTimeDur = Exp.func.formatDuration(user.premium.time - Date.now())
      
